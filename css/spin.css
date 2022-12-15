@@ -1,0 +1,62 @@
+#spin {
+  font-size:36px;
+}
+#spin:after {
+  content:"";
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { content:"🦊";}
+  33% { content:"🐴";}
+  66% { content:"🦉";}
+  100% { content:"🐑";}
+}
+
+
+
+#spin2 {
+  
+  font-size:36px;
+}
+#spin2:after {
+  content:"";
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  0% { content:"🦊";}
+  33% { content:"🐴";}
+  66% { content:"🦉";}
+  100% { content:"🐑";}
+}
+
+
+
+#spin3 {
+  font-size:36px;
+}
+#spin3:after {
+  content:"";
+  animation: spin 4s linear infinite;
+}
+@keyframes spin {
+  0% { content:"🦊";}
+  33% { content:"🐴";}
+  66% { content:"🦉";}
+  100% { content:"🐑";}
+}
+
+
+
+#spin4 {
+  font-size:56px;
+}
+#spin4:after {
+  content:"";
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0% { content:"🦊";}
+  33% { content:"🐴";}
+  66% { content:"🦉";}
+  100% { content:"🐑";}
+}

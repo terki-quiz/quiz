@@ -1,0 +1,32 @@
+@media only screen /*and (min-width: 481px) and (max-width: 768px)*/ {
+
+	header {
+		padding-left: 16px;
+    	padding-right: 16px;
+    	background-color:gray;
+    	height: 70px;
+	}
+
+	h1 {
+		color: blue;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+	.first-version{
+		font-size: 17px;
+	}
+	p {
+		font-size: 17px;
+	}
+
+	section {
+		padding: 12px;
+	}
+
+	.check-item {
+		width: 24px;
+		height: 24px;
+	}
+}

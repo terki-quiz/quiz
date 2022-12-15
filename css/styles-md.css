@@ -1,0 +1,16 @@
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
+
+	header {
+		padding-left: 12px;
+    	padding-right: 12px;
+    	background-color: blue;
+	}
+
+
+	h1 {
+		color: green;
+		font-size: 12px;
+	}
+
+
+}
