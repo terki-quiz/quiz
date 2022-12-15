@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(Manrope_VariableFont_wght.ttf);
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;700&display=swap');*/
+
+*{
+    font-family: 'Manrope';
+/*    font-family: 'Lora', serif;*/
+}
+
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background-color: #F1F1F1;*/
+/*    box-sizing: border-box;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    !* background-image: url('img/Untitled_Artwork\ 144.png');*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: absolute; *!*/
+/*}*/
+/*header {*/
+/*    width: 100vw;*/
+/*    height: 100px;*/
+/*    background-color: #ebebeb;*/
+/*    position: sticky;*/
+/*    top: 0;*/
+/*    z-index: 1;*/
+/*    !* padding-top: 8px;*/
+/*    padding-bottom: 32px; *!*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    font-size: 36px;*/
+/*    margin-bottom: 30px;*/
+
+
+/*}*/
+/*.progressbar {*/
+/*    width: 620px;*/
+/*    height: 80px;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*}*/
+/*.progresscircle {*/
+/*    display: inline-block;*/
+/*    border: 2px solid black;*/
+/*    border-radius: 50%;*/
+/*    overflow: hidden;*/
+/*    width: 46px;*/
+/*    height: 46px;*/
+/*    background-size: cover;*/
+/*}*/
+
+.progresscircle{
+    background-size: cover;
+}
+.top-line{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+.team {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+}
+.block{
+/*    margin-top: 40px;*/
+    background: var(--background-block);
+    padding: 30px;
+    border-radius: 32px;
+}
+
+.start-block{
+    background: var(--background-block);
+    padding: 40px;
+    border-radius: 42px;
+    max-width: 1100px;
+    margin: 40px auto 0;
+    position: relative;
+}
+.start-block-img {
+    /* background-image: url('img/Untitled_Artwork\ 144.png'); */
+    width: 25vw;
+    float: right;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+h1{
+    font-size: 40px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin: 0;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-weight: 900;
+}
+
+.img {
+    width: 100%;
+    height: 385px;
+    border-radius: 4px;
+    margin: 18px 0 24px 0;
+}
+.normal{
+    width: 100%;
+    height: 385px;
+    border-radius: 4px;
+    margin: 18px 0 24px 0;
+}
+
+.smiles {
+    font-size: 36px;
+}
+.btn-grid, .form-grid {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 1px solid #963CD7; */
+    border-radius: 2px;
+    margin-top: 8px;
+}
+.btn-submit, .to-next-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 24px;
+    width: 220px;
+/*    height: 65px;*/
+    font-size: 19px;
+    background: #111;
+    border: 2px solid #111;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+/*    font-family: -apple-system, BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;*/
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;    
+}
+
+.btn-submit, .to-next-block:hover {
+    background: #444;
+    border: 2px solid #444;
+}
+
+.btn-solution {
+    background-color: blue;
+}
+
+.btn-start, .btn-restart, .btn-next {
+    display: flex;
+    justify-content: center;
+    padding: 17px 0;
+    width: 250px;
+    border: 2px solid #111;
+    background-color: #405cf5;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    cursor: pointer;
+    margin-top: 12px;
+    font-family: 'Manrope', sans-serif;
+    background: #111111;
+    margin-right: 0;
+/*    background: linear-gradient(180deg, #A2A5F6 0%, #8888F4 100%);*/
+/*    box-shadow: 0px 3px 4px rgba(27, 15, 182, 0.4), 0px 1px 2px #5C55F1;*/
+/*    border-radius: 12px;*/
+}
+
+.btn-start:hover {
+    background: #414141;
+    border: 2px solid #414141;
+}
+
+.btn-restart:hover {
+    background: #414141;
+    border: 2px solid #414141;
+}
+
+.btn-choose {
+    margin-top: 16px;
+    width: 100%;
+    background-color: #F1F1F1;
+    text-align: left;
+    padding: 18px 24px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    font-family: 'Manrope';
+    cursor: pointer;
+    border: 2px solid #F1F1F1;
+    font-size: 19px;
+}
+.btn-choose:hover {
+    border: 2px solid #111111;
+/*    background: #f7f5fd;*/
+}
+
+.btn-choose:focus {
+    border: 2px solid #111111;
+/*    background: #f7f5fd;*/
+}
+
+.btn-choose:disabled {
+    /*border: 4px solid black;*/
+    opacity: .65;
+    pointer-events: none;
+}
+
+
+
+.situations {
+/*    padding: 40px;*/
+    border-radius: 42px;
+    max-width: 800px;
+    margin: 40px auto;
+/*    background-color: antiquewhite;*/
+    background-color: var(--background-situations);
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 24px;
+    width: 100%;
+    /* border: 1px solid #963CD7; */
+    border-radius: 10px;
+    background: ghostwhite;
+    /* margin: 8px; */
+    margin-top: 24px;
+    /*margin-bottom: 112px;*/
+}
+.comment p {
+    font-size: 19px;
+    margin: 0;
+/*    padding: 8px 4px 8px 4px;*/
+/*    margin-bottom: 8px;*/
+}
+
+/*footer {*/
+/*    margin: 71px auto;*/
+/*    !*width: 880px;*!*/
+/*    display: flex;*/
+/*}*/
+
+
+.authors, .park, .book{
+    display: flex;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-right: 25px;
+    align-items: flex-end;
+    border-bottom: 2px solid #E6C8F0;
+}
+
+.results-bar {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.result-point {
+    width: 100px;
+    display: flex;
+}
+.result-img {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 46px;
+    height: 46px;
+    background-size: cover;
+}
+
+.progress-line {
+    width: 500px;
+    height: 30px;
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+.ul_which-animal {
+    font-size: 19px;
+    line-height: 1.45;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+/* .p-ending {
+    font-style: italic;
+} */
+/* #progress-col1 {
+    background-color: blue;
+} */
