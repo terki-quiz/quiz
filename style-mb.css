@@ -1,0 +1,128 @@
+a {
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 1.0);
+  color: black;
+}
+
+a:hover {
+  color: orangered;
+  border-bottom: 2px solid orangered;
+}
+
+figcaption {
+  font-size: 19px;
+  margin: auto;
+  padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0; /* Расстояние сверху */
+    background: #F1F1F1;
+    z-index: 1;
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+
+footer {
+  display: flex;
+}
+
+label:hover {
+  border: 4px solid black;
+}
+
+h2 {
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+.p-mb {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-start, .btn-restart {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Manrope',-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 19px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 32px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 400px;
+  will-change: transform;
+}
+
+.btn-submit {
+  margin-top: 24px;
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Manrope',-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 19px;
+  font-weight: 500;
+  line-height: normal;
+  /*margin: 0;*/
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 32px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 400px;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.margin-s-mb {
+    margin-bottom: 16px;
+}
